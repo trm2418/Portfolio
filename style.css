@@ -1,59 +1,97 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #1a1a1a;
-  color: #f2f2f2;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1B1D21;
+    color: #FFFFFF;
+  }
+  
+  header {
+    background-color: #212229;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
 
-header {
-  background-color: #121212;
-  padding: 2rem;
+  h1, h2, h3, strong {
+    color: #0b90ce;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  }
+  
+  nav {
+    text-align: center;
+    /*background-color: #4a4f58;*/
+    background-color: #111216;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1rem 1rem;
+    border-radius: 0px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .project {
+    padding: 2rem 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #212229;
+  }
+  
+  a {
+    color: #0b90ce;
+    transition: color 0.2s;
+  }
+  
+  a:hover {
+    color: #63b3ff;
+    text-decoration: underline;
+  }
+  
+  nav a:hover {
+    background-color: #0a81b9;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  /* Profile Picture Styling */
+.profile-pic-container {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: 1.2rem;
-  color: #aaa;
-}
-
-nav {
-  text-align: center;
-  background-color: #202020;
-  padding: 1rem;
-}
-
-nav a {
-  color: #f2f2f2;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.project {
-  padding: 2rem 0;
-  border-bottom: 1px solid #333;
-}
-
-.project img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem;
-  font-size: 0.9rem;
-  color: #aaa;
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0b90ce;
 }
