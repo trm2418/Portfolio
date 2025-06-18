@@ -41,6 +41,12 @@ nav a {
   border-radius: 0px;
 }
 
+@media (max-width: 600px) {
+  nav a {
+    padding: 1rem 0.5rem;
+  }
+}
+
 /* Dropdown container */
 .dropdown {
   position: relative;
